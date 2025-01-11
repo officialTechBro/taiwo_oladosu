@@ -8,13 +8,13 @@ export function Skills() {
   return (
     <div className="my-20 overflow-hidden" id="skills">
         <h1 className="heading mb-6">
-            My{" "}
-            <span className="text-purple-600 "> skills</span>
+            Core{" "}
+            <span className="text-purple-600 "> stacks</span>
         </h1>
         <Card>
             {/* <CardTitle>My Stacks</CardTitle> */}
             <CardDescription>
-                Expert in modern front-end and back-end technologies, including React.js, Node.js, and
+                Expert in modern front-end and back-end technologies, including React.js, Next.js, Node.js, and
                 SQL/NoSQL databases. Proficient in creating robust RESTful APIs and implementing CI/CD pipelines to
                 streamline development
             </CardDescription>
