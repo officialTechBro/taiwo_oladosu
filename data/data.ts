@@ -40,33 +40,27 @@ export const companies = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Taiwo was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Taiwo's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Taiwo is the ideal partner.",
+    name: "Mark Oyekola",
+    title: "Director of TechMaestro",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Taiwo has been an absolute game-changer for our business. They seamlessly handled both the front-end and back-end development of our web platform, delivering a product that exceeded our expectations in every way. His technical expertise, attention to detail, and ability to communicate complex ideas in simple terms made the entire process smooth and stress-free. What stood out the most was his proactive approach to solving challenges and suggesting innovative features that enhanced our platform's functionality.",
+    name: "Brian Johnson",
+    title: "Tech Lead at Theta",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Taiwo delivered an exceptional website for our business, seamlessly handling both front-end and back-end development. Their expertise, clear communication, and innovative approach made the process smooth and efficient. Highly recommend his work!",
+    name: "N. Obinna",
+    title: "Product Owner at Tellafric",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Taiwo was a fantastic experience. He took our initial idea and turned it into a fully functional, visually stunning platform that perfectly met our needs. From front-end design to back-end development, His expertise was evident in every aspect of the project. What impressed us most was their ability to anticipate challenges and proactively offer solutions, ensuring the project stayed on track and delivered on time.",    
+    name: "Miguel Perez",
+    title: "Delivery Manager of  Haven",
   },
 ];
 

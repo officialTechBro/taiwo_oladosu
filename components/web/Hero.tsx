@@ -9,7 +9,7 @@ const Hero = () => {
     <>
         <BackgroundLines className="h-screen w-full overflow-hidden flex items-center justify-center">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                <h2 className="uppercase tracking-widest text-xs text-center dark:text-blue-100 max-w-80">dynamic web magic with next.js</h2>
+                {/* <h2 className="uppercase tracking-widest text-xs text-center dark:text-blue-100 max-w-80">dynamic web magic with next.js</h2> */}
                 <TextGenerateEffect
                     words="Transforming Concepts into Seamless User Experiences"
                     className="text-center text-[40px] md:text-3xl lg:text-4xl"
