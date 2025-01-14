@@ -9,7 +9,7 @@ export function Skills() {
     <div className="my-20 overflow-hidden" id="skills">
         <h1 className="heading mb-6">
             My{" "}
-            <span className="text-purple-600 "> skills</span>
+            <span className="text-fuchsia-600 "> skills</span>
         </h1>
         <Card>
             {/* <CardTitle>My Stacks</CardTitle> */}

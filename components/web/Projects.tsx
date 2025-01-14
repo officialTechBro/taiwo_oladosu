@@ -18,7 +18,7 @@ const Projects = () => {
      <div className="my-20 overflow-hidden" id="projects">
         <h1 className="heading mb-14 md:mb-10">
             A small selection of{" "}
-            <span className="text-purple-600"> recent Projects</span>
+            <span className="text-fuchsia-600"> recent Projects</span>
         </h1>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-10">
           {myWorks.map((works) => (

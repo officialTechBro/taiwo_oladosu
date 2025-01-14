@@ -6,7 +6,7 @@ const Experience = () => {
      <div className="my-20 overflow-hidden" id="experiences">
         <h1 className="heading">
             My{" "}
-            <span className="text-purple-600"> professional experience</span>
+            <span className="text-fuchsia-600"> professional experience</span>
         </h1>
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 items-center justify-center max-w-7xl mx-auto px-6">
         {workExperience.map((card) => (

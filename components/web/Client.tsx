@@ -6,7 +6,7 @@ const Client = () => {
     <div className="my-20 overflow-hidden" id="testimonials">
         <h1 className="heading">
             Kind words from{" "}
-            <span className="text-purple-600"> satisfied clients</span>
+            <span className="text-fuchsia-600"> satisfied clients</span>
         </h1>
         <div className="flex flex-col items- max-lg:mt-10 mt-5">
             <InfiniteMovingCards 
