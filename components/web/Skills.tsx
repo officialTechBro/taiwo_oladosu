@@ -8,16 +8,16 @@ export function Skills() {
   return (
     <div className="my-20 overflow-hidden" id="skills">
         <h1 className="heading mb-6">
-            Core{" "}
-            <span className="text-purple-600 "> stacks</span>
+            My{" "}
+            <span className="text-purple-600 "> skills</span>
         </h1>
         <Card>
             {/* <CardTitle>My Stacks</CardTitle> */}
-            <CardDescription>
+            {/* <CardDescription>
                 Expert in modern front-end and back-end technologies, including React.js, Next.js, Node.js, and
                 SQL/NoSQL databases. Proficient in creating robust RESTful APIs and implementing CI/CD pipelines to
                 streamline development
-            </CardDescription>
+            </CardDescription> */}
             <CardSkeletonContainer>
                 <Skeleton />
             </CardSkeletonContainer>
@@ -81,8 +81,33 @@ const Skeleton = () => {
   }, []);
   return (
     <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
-      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
-        <Container className="lg:h-20 lg:w-20 md:h-12 md:w-12 w-10 h-10 circle-4">
+      <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
+          <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+            <Html className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+          </Container>
+          <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+            <TypeScript className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+          </Container>
+          <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+            <ReactJs className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+          </Container>
+          <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+            <JavaScript className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+          </Container>
+          <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+            <NextJs className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+          </Container>
+          <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+            <Tailwind className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+          </Container>
+          <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+            <Figma className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+          </Container>
+          <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+            <Css className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+          </Container>
+        {/* <Container className="lg:h-20 lg:w-20 md:h-12 md:w-12 w-10 h-10 circle-4">
           <Tailwind className="lg:h-12 lg:w-12 md:h-9 md:w-9 w-6 h-7" />
         </Container>
         <Container className="lg:h-24 lg:w-24 md:h-14 md:w-14 w-11 h-11 circle-2">
@@ -108,9 +133,62 @@ const Skeleton = () => {
         </Container>
         <Container className="lg:h-20 lg:w-20 md:h-12 md:w-12 w-10 h-10 circle-1">
           <Github className="lg:h-12 lg:w-12 md:h-9 md:w-9 w-6 h-7" />
-        </Container>
+        </Container> */}
       </div>
-
+      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <NodeJs className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <DotNet className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <MongoDB className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <Github className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <ExpressJs className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <Prisma className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <PostgreSQL className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <SupaBase className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        {/* <Container className="lg:h-20 lg:w-20 md:h-12 md:w-12 w-10 h-10 circle-4">
+          <Tailwind className="lg:h-12 lg:w-12 md:h-9 md:w-9 w-6 h-7" />
+        </Container>
+        <Container className="lg:h-24 lg:w-24 md:h-14 md:w-14 w-11 h-11 circle-2">
+          <JavaScript className="lg:h-14 lg:w-14 md:h-10 md:w-10 w-7 h-7" />
+        </Container>
+        <Container className="lg:h-24 lg:w-24 md:h-14 md:w-14 w-11 h-11 circle-2">
+          <NextJs className="lg:h-14 lg:w-14 md:h-10 md:w-10 w-7 h-7" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <TypeScript className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-32 lg:w-32 md:h-20 md:w-20 w-14 h-14 circle-3">
+          <ReactJs className="lg:h-20 lg:w-20 md:h-14 md:w-14 w-10 h-10" />
+        </Container>
+        <Container className="lg:h-32 lg:w-32 md:h-20 md:w-20 w-14 h-14 circle-3">
+          <NodeJs className="lg:h-20 lg:w-20 md:h-14 md:w-14 w-10 h-10" />
+        </Container>
+        <Container className="lg:h-28 lg:w-28 md:h-16 md:w-16 w-12 h-12 circle-2">
+          <DotNet className="lg:h-16 lg:w-16 md:h-12 md:w-12 w-9 h-9" />
+        </Container>
+        <Container className="lg:h-24 lg:w-24 md:h-14 md:w-14 w-11 h-11 circle-4">
+          <MongoDB className="lg:h-14 lg:w-14 md:h-11 md:w-11 w-8 h-8" />
+        </Container>
+        <Container className="lg:h-20 lg:w-20 md:h-12 md:w-12 w-10 h-10 circle-1">
+          <Github className="lg:h-12 lg:w-12 md:h-9 md:w-9 w-6 h-7" />
+        </Container> */}
+      </div>
+      </div>
       <div className="h-40 w-px absolute top-20 m-auto z-40 bg-gradient-to-b from-transparent via-cyan-500 to-transparent animate-move">
         <div className="w-10 h-32 top-1/2 -translate-y-1/2 absolute -left-10">
           <Sparkles />
@@ -165,7 +243,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "max-w-6xl w-full mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] bg-transparent shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
+        "max-w-6xl w-full mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] bg-transparent shadow-[2px_4px_16px_0px_rgba(248,248,248,0.0)_inset] group",
         className
       )}
     >
@@ -274,9 +352,9 @@ export const ReactJs = ({ className }: { className?: string }) => {
 
 export const JavaScript = ({ className }: { className?: string }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" className={className}>
-    <path fill="#fff" d="M 43.335938 4 L 6.667969 4 C 5.195313 4 4 5.195313 4 6.667969 L 4 43.332031 C 4 44.804688 5.195313 46 6.667969 46 L 43.332031 46 C 44.804688 46 46 44.804688 46 43.335938 L 46 6.667969 C 46 5.195313 44.804688 4 43.335938 4 Z M 27 36.183594 C 27 40.179688 24.65625 42 21.234375 42 C 18.140625 42 15.910156 39.925781 15 38 L 18.144531 36.097656 C 18.75 37.171875 19.671875 38 21 38 C 22.269531 38 23 37.503906 23 35.574219 L 23 23 L 27 23 Z M 35.675781 42 C 32.132813 42 30.121094 40.214844 29 38 L 32 36 C 32.816406 37.335938 33.707031 38.613281 35.589844 38.613281 C 37.171875 38.613281 38 37.824219 38 36.730469 C 38 35.425781 37.140625 34.960938 35.402344 34.199219 L 34.449219 33.789063 C 31.695313 32.617188 29.863281 31.148438 29.863281 28.039063 C 29.863281 25.179688 32.046875 23 35.453125 23 C 37.878906 23 39.621094 23.84375 40.878906 26.054688 L 37.910156 27.964844 C 37.253906 26.789063 36.550781 26.328125 35.453125 26.328125 C 34.335938 26.328125 33.628906 27.039063 33.628906 27.964844 C 33.628906 29.109375 34.335938 29.570313 35.972656 30.28125 L 36.925781 30.691406 C 40.171875 32.078125 42 33.496094 42 36.683594 C 42 40.117188 39.300781 42 35.675781 42 Z"></path>
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+<path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
+</svg>
   )}
   
 export const DotNet = ({ className }: { className?: string }) => {
@@ -318,6 +396,63 @@ export const Github = ({ className }: { className?: string }) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30" className={className}>
         <path fill="#fff" d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+    </svg>
+  )}
+
+
+export const ExpressJs = ({ className }: { className?: string }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+      <path fill="#fff" d="M23.697,37.56h1.18c0.84,0,1.631-0.392,2.139-1.061l7.485-9.847l7.485,9.847	c0.508,0.668,1.299,1.061,2.139,1.061h1.18L35.756,25l9.121-12h-1.18c-0.84,0-1.631,0.392-2.139,1.061L34.5,23.347l-7.059-9.287	C26.933,13.392,26.142,13,25.302,13h-1.18l9.121,12L23.697,37.56z"></path><path fill="#fff" d="M24,26v-3c0-6.675-5.945-11.961-12.829-10.852C5.812,13.011,2,17.857,2,23.284L2,24v2v0.142	c0,6.553,4.777,11.786,10.868,11.858c5.092,0.06,9.389-3.344,10.707-7.999h-1.028c-0.62,0-1.182,0.355-1.451,0.913	c-1.739,3.595-5.789,5.862-10.228,4.842C6.776,34.815,4,30.981,4,26.783V26H24z M4,23.71c0-4.708,2.804-8.557,6.924-9.478	C16.798,12.92,22,17.352,22,23v1H4V23.71z"></path>
+    </svg>
+  )}
+
+export const Prisma = ({ className }: { className?: string }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+    <linearGradient id="tIPmjNUBt_a5oESFbxjTla_YKKmRFS8Utmm_gr1" x1="22.322" x2="24.979" y1="6.179" y2="39.339" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#33c4a2"></stop><stop offset=".979" stop-color="#16a394"></stop></linearGradient><path fill="url(#tIPmjNUBt_a5oESFbxjTla_YKKmRFS8Utmm_gr1)" d="M44.284,36.035L27.687,1.429c-0.855-1.783-3.337-1.93-4.397-0.26L4.886,30.177	c-0.397,0.625-0.385,1.426,0.029,2.04l9.271,13.738c0.575,0.852,1.634,1.237,2.623,0.953l25.942-7.458	C44.208,39.031,44.939,37.402,44.284,36.035z M40.618,37.279L18.8,43.388c-0.505,0.142-0.98-0.305-0.87-0.818l7.735-36.097	c0.139-0.65,1.023-0.755,1.311-0.157l14.265,29.621C41.489,36.481,41.194,37.118,40.618,37.279z"></path>
+    </svg>
+  )}
+
+export const Figma = ({ className }: { className?: string }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+      <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+    </svg>
+  )}
+
+export const PostgreSQL = ({ className }: { className?: string }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+    <path fill="#fff" d="M44.083,29.79c-0.183-0.829-0.935-1.796-2.452-1.796c-0.31,0-0.649,0.039-1.035,0.119c-0.708,0.146-1.311,0.217-1.842,0.241c4.133-7.04,6.816-16.819,4.159-20.214c-3.501-4.473-8.214-5.141-10.711-5.141L31.967,3c-0.929,0.015-1.893,0.129-2.863,0.339l-3.583,0.774C25.033,4.052,24.536,4.009,24.018,4l-0.03,0l-0.016,0l-0.152-0.001c-1.593,0-3.046,0.338-4.341,0.973l-1.251-0.493c-1.72-0.678-4.308-1.485-6.868-1.485c-0.144,0-0.287,0.003-0.431,0.008C8.407,3.093,6.241,4.05,4.664,5.769C2.696,7.915,1.8,11.054,2.003,15.1C2.013,15.309,4.461,36,11.4,36h0.025l0.064-0.001c0.901-0.022,1.76-0.384,2.563-1.077c0.613,0.46,1.406,0.732,2.145,0.84c0.488,0.115,1.366,0.278,2.418,0.278c1.284,0,2.442-0.263,3.44-0.738c-0.001,0.88-0.006,1.994-0.016,3.418l-0.001,0.075l0.005,0.075c0.097,1.419,0.342,2.698,0.711,3.701c1.051,2.859,2.866,4.434,5.111,4.434c0.093,0,0.188-0.003,0.284-0.009c1.846-0.114,3.717-1.151,5.004-2.772c1.393-1.755,1.715-3.607,1.839-5.026L35,39.111v-0.088v-4.079l0.103,0.01l0.436,0.038l0.042,0.004l0.042,0.002c0.124,0.006,0.252,0.008,0.381,0.008c1.507,0,3.362-0.391,4.616-0.974C41.819,33.476,44.559,31.948,44.083,29.79z"></path><path fill="#0277bd" d="M33,34c0-0.205,0.012-0.376,0.018-0.565C33.008,33.184,33,33,33,33s0.012-0.009,0.032-0.022c0.149-2.673,0.886-3.703,1.675-4.29c-0.11-0.153-0.237-0.318-0.356-0.475c-0.333-0.437-0.748-0.979-1.192-1.674l-0.082-0.158c-0.067-0.164-0.229-0.447-0.435-0.819c-1.183-2.14-3.645-6.592-1.96-9.404c0.738-1.232,2.122-1.942,4.121-2.117C33.986,11.718,30.925,6.115,23.985,6c-0.002,0-0.004,0-0.006,0c-6.041-0.098-8.026,5.392-8.672,8.672c0.89-0.377,1.906-0.606,2.836-0.606c0.014,0,0.029,0,0.043,0c2.29,0.017,3.865,1.239,4.323,3.354c0.335,1.552,0.496,2.91,0.492,4.153c-0.01,2.719-0.558,4.149-1.042,5.411l-0.154,0.408c-0.124,0.334-0.255,0.645-0.379,0.937c-0.126,0.298-0.237,0.563-0.318,0.802c0.484,0.11,0.864,0.265,1.125,0.38l0.151,0.066c0.047,0.02,0.094,0.043,0.137,0.069c0.848,0.516,1.376,1.309,1.489,2.233c0.061,0.498,0.051,3.893,0.03,6.855c0.087,1.285,0.305,2.364,0.593,3.146c0.409,1.114,1.431,3.241,3.394,3.119c1.37-0.085,2.687-0.919,3.561-2.019c0.938-1.181,1.284-2.487,1.414-3.958V34z"></path><path fill="#0277bd" d="M15.114 28.917c-1.613-1.683-2.399-3.947-2.104-6.056.285-2.035.124-4.027.037-5.098-.029-.357-.048-.623-.047-.77 0-.008.002-.015.003-.023 0-.004-.002-.007-.002-.011.121-3.021 1.286-7.787 4.493-10.62C15.932 5.724 13.388 4.913 11 5 7.258 5.136 3.636 7.724 4 15c.137 2.73 3.222 19.103 7.44 19 .603-.015 1.229-.402 1.872-1.176 1.017-1.223 2.005-2.332 2.708-3.104C15.705 29.481 15.401 29.217 15.114 28.917zM37.023 14.731c.015.154.002.286-.022.408.031.92-.068 1.813-.169 2.677-.074.636-.15 1.293-.171 1.952-.021.645.07 1.282.166 1.956.225 1.578.459 3.359-.765 5.437.225.296.423.571.581.837 4.61-7.475 6.468-16.361 4.695-18.626C38.655 5.944 34.941 4.952 31.999 5c-.921.015-1.758.139-2.473.294C34.602 7.754 36.863 13.026 37.023 14.731zM41 30.071c-2.665.55-3.947.257-4.569-.126-.1.072-.2.133-.293.19-.372.225-.961.583-1.105 2.782.083.016.156.025.246.044L35.714 33c1.32.06 3.049-.31 4.063-.781C41.962 31.205 43.153 29.627 41 30.071zM22.023 32.119c-.037-.298-.198-.539-.492-.732l-.108-.047C21.062 31.181 20.653 31 20 31h-.004c-.127.01-.253.019-.38.019-.052 0-.103-.007-.155-.009-.474.365-1.148.647-2.816.99-2.98.759-1.221 1.655-.078 1.794 1.106.277 3.735.614 5.481-.809C22.043 32.537 22.035 32.229 22.023 32.119z"></path><path fill="#0277bd" d="M20.681 18.501c-.292.302-.753.566-1.262.484-.828-.134-1.463-1.133-1.417-1.508h0c.044-.374.751-.569 1.578-.435.287.047.548.128.768.228-.32-.688-.899-1.085-1.782-1.182-1.565-.174-3.226.644-3.56 1.097.007.11.02.251.033.417.093 1.147.265 3.284-.05 5.537-.208 1.485.393 3.169 1.567 4.395.757.79 1.641 1.29 2.513 1.438.111-.478.309-.944.513-1.425.113-.265.233-.547.346-.852l.162-.427c.443-1.155.9-2.35.909-4.703C21.003 20.66 20.892 19.627 20.681 18.501zM34.847 22.007c-.104-.729-.211-1.484-.185-2.303.023-.742.105-1.442.184-2.119.062-.533.11-1.045.138-1.55-1.289.107-2.145.479-2.551 1.108.168-.057.358-.102.568-.129.892-.116 1.543.141 1.618.637.055.363-.253.705-.388.836-.277.269-.626.442-.981.488-.064.008-.129.012-.192.012-.353 0-.69-.121-.949-.3.112 1.973 1.567 4.612 2.283 5.907.153.277.271.498.369.688C35.154 24.163 35.009 23.143 34.847 22.007z"></path>
+    </svg>
+  )}
+
+export const SupaBase = ({ className }: { className?: string }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+    <g id="Ð¡Ð»Ð¾Ð¹_1"><linearGradient id="SVGID_1__sH0rW2TvYdr9_gr1" x1="14.073" x2="14.073" y1="8.468" y2="36.033" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7dffce"></stop><stop offset="1" stop-color="#50c08d"></stop></linearGradient><path fill="url(#SVGID_1__sH0rW2TvYdr9_gr1)" d="M24.2,30V6.3c0-1.8-2.3-2.6-3.4-1.2L4.5,25.9c-1.3,1.7-0.1,4.1,2,4.1H24.2z"></path><linearGradient id="SVGID_00000140728474547789280440000018204366184369975479__sH0rW2TvYdr9_gr2" x1="34.249" x2="34.249" y1="48.404" y2="19.425" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7dffce"></stop><stop offset="1" stop-color="#50c08d"></stop></linearGradient><path fill="url(#SVGID_00000140728474547789280440000018204366184369975479__sH0rW2TvYdr9_gr2)" d="M24,18.4v23.7c0,1.8,2.4,2.6,3.5,1.2 l16.4-20.7c1.3-1.7,0.1-4.1-2.1-4.1H24z"></path></g>
+    </svg>
+  )}
+
+export const Docker = ({ className }: { className?: string }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+    <path fill="#2395ec" d="M47.527,19.847c-0.13-0.102-1.345-1.007-3.908-1.007c-0.677,0.003-1.352,0.06-2.019,0.171 c-0.496-3.354-3.219-4.93-3.345-5.003l-0.688-0.392l-0.453,0.644c-0.567,0.866-1.068,1.76-1.311,2.763 c-0.459,1.915-0.18,3.713,0.806,5.25C35.417,22.928,33.386,22.986,33,23H1.582c-0.826,0.001-1.496,0.66-1.501,1.474 c-0.037,2.733,0.353,5.553,1.306,8.119c1.089,2.818,2.71,4.894,4.818,6.164C8.567,40.184,12.405,41,16.756,41 c1.965,0.006,3.927-0.169,5.859-0.524c2.686-0.487,5.271-1.413,7.647-2.74c1.958-1.119,3.72-2.542,5.219-4.215 c2.505-2.798,3.997-5.913,5.107-8.682c0.149,0,0.298,0,0.442,0c2.743,0,4.429-1.083,5.359-1.99 c0.618-0.579,1.101-1.284,1.414-2.065L48,20.216L47.527,19.847z"></path><path fill="#2395ec" d="M8,22H5c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C9,21.552,8.552,22,8,22z"></path><path fill="#2395ec" d="M14,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C15,21.552,14.552,22,14,22z"></path><path fill="#2395ec" d="M20,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C21,21.552,20.552,22,20,22z"></path><path fill="#2395ec" d="M26,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,21.552,26.552,22,26,22z"></path><path fill="#2395ec" d="M14,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C15,15.552,14.552,16,14,16z"></path><path fill="#2395ec" d="M20,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C21,15.552,20.552,16,20,16z"></path><path fill="#2395ec" d="M26,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,15.552,26.552,16,26,16z"></path><path fill="#2395ec" d="M26,10h-3c-0.552,0-1-0.448-1-1V6c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,9.552,26.552,10,26,10z"></path><path fill="#2395ec" d="M32,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C33,21.552,32.552,22,32,22z"></path>
+    </svg>
+  )}
+  
+export const Html = ({ className }: { className?: string }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+    <linearGradient id="SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1" x1="18.208" x2="34.159" y1="2.413" y2="46.236" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f09701"></stop><stop offset="1" stop-color="#e36001"></stop></linearGradient><path fill="url(#SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1)" d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z"></path><path fill="#f09601" d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z"></path><path fill="#fff" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5L24,25z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#d6e0e9" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path><path d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M34.278,12H33.2H24h-9.1h-1.06l0.062,1.058l0.7,12L14.657,26h-0.032l0.078,1.073l0.4,5.5l0.049,0.668 l0.636,0.209l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6l0.644-0.212l0.041-0.677l0.7-11.5L33.663,20H32.6H24h-3.672l-0.15-2H24h8.9 h0.928l0.069-0.925l0.3-4L34.278,12L34.278,12z M20.623,26H24h3.331l-0.185,2.769L24,29.843l-3.156-1.077l-0.148-1.846L20.623,26 L20.623,26z" opacity=".05"></path><path d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M33.739,12.5H33.2H24h-9.1h-0.53l0.031,0.529l0.7,12l0.027,0.471H15.6H24h3.866l-0.242,3.634L24,30.372 l-3.628-1.239l-0.174-2.173l-0.037-0.46H19.7h-4h-0.538l0.039,0.536l0.4,5.5l0.024,0.334l0.318,0.105l7.9,2.6L24,35.626 l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.032-0.53H32.6H24h-4.136l-0.225-3H24h8.9h0.464l0.035-0.463l0.3-4 L33.739,12.5L33.739,12.5z" opacity=".07"></path>
+    </svg>
+  )}
+
+export const Css = ({ className }: { className?: string }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className={className}>
+    <linearGradient id="TQDriqswrKwPOniLrPT12a_7gdY5qNXaKC0_gr1" x1="16.33" x2="32.293" y1="-2.748" y2="41.109" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#TQDriqswrKwPOniLrPT12a_7gdY5qNXaKC0_gr1)" d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z"></path><path fill="#35c1f1" d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z"></path><path fill="#fff" d="M33.1,13H24v4h4.9l-0.3,4H24v4h4.4l-0.3,4.5L24,30.9v4.2l7.9-2.6L32.6,21l0,0L33.1,13z"></path><path fill="#d6e0e9" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4	L19.8,27z"></path><path d="M33.1,13l-0.5,8l-0.7,11.5L24,35.1l-7.9-2.6L15.8,27h4l0.1,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-4.4l-0.2-4H24h4.6l0.3-4H24 h-8.9l-0.3-4H24H33.1 M34.164,12H33.1H24h-9.2h-1.078l0.081,1.075l0.3,4L14.172,18H15.1H24h3.822l-0.15,2H24h-4.6h-1.051 l0.052,1.05l0.2,4L18.649,26H15.8h-1.056l0.058,1.054l0.3,5.5l0.037,0.682l0.649,0.214l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6 l0.644-0.212l0.041-0.677l0.7-11.5l0.5-7.998L34.164,12L34.164,12z M20.761,26H24h3.331l-0.185,2.769L24,29.843l-3.128-1.068 l-0.073-1.815L20.761,26L20.761,26z" opacity=".05"></path><path d="M33.1,13l-0.5,8l-0.7,11.5L24,35.1l-7.9-2.6L15.8,27h4l0.1,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-4.4l-0.2-4H24h4.6l0.3-4H24 h-8.9l-0.3-4H24H33.1 M33.632,12.5H33.1H24h-9.2h-0.539l0.04,0.537l0.3,4l0.035,0.463H15.1H24h4.361l-0.225,3H24h-4.6h-0.526 l0.026,0.525l0.2,4l0.024,0.475H19.6H24h3.866l-0.242,3.634L24,30.372l-3.614-1.234L20.3,26.98L20.28,26.5H19.8h-4h-0.528 l0.029,0.527l0.3,5.5l0.019,0.341l0.324,0.107l7.9,2.6L24,35.626l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.5-7.999 L33.632,12.5L33.632,12.5z" opacity=".07"></path>
     </svg>
   )}
 

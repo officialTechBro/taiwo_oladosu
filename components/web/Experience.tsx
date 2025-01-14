@@ -3,7 +3,7 @@ import { Button } from "../ui/moving-borders"
 
 const Experience = () => {
   return (
-     <div className="my-20 overflow-hidden" id="testimonials">
+     <div className="my-20 overflow-hidden" id="experiences">
         <h1 className="heading">
             My{" "}
             <span className="text-purple-600"> professional experience</span>

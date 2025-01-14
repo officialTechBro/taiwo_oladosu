@@ -2,6 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Experiences", link: "#experiences" },
+  { name: "Contact", link: "#contact" },
 ];
 
 export const companies = [
@@ -68,6 +69,7 @@ export const myWorks = [
   {
     id: 1,
     title: "stormzy e-commerce",
+    desc: "Stormzy - A Modern E-Commerce Web Application",
     images: [
       "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -86,6 +88,7 @@ export const myWorks = [
   {
     id: 2,
     title: "AI Photo generator",
+    desc: "PhotoStore - A Saas Ai Photo Generator",
     images: [
       "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -103,7 +106,8 @@ export const myWorks = [
   },
   {
     id: 3,
-    title: "Content generator software",
+    title: "Lodgify",
+    desc: "Lodigify -  An Online marketplace for short-and-long-term homestays and experiences.",
     images: [
       "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -122,6 +126,7 @@ export const myWorks = [
   {
     id: 4,
     title: "task Tracker",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, ut",
     images: [
       "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -142,31 +147,31 @@ export const myWorks = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assist in the development and maintenance of web applications using HTML, CSS, and JavaScript.",
+    title: "Snr Software Engineer",
+    desc: "Designed, developed, and maintained scalable web applications using React for front-end and Node.js with Express for back-end, improving application performance by 25%. ",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 2,
-    title: "Frontend Developer",
-    desc: "Designed, develope and Collaborated with UX/UI designers to implement design specifications using React, enhancing user experience and interface functionality.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
     title: "Freelance Software Development",
     desc: "Developed single-page applications (SPAs) and dynaminc-page applications (DSAs) using React (Next JS) and integrated them with RESTful APIs built on Node.js and Express. ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
+    id: 3,
+    title: "Frontend Developer",
+    desc: "Designed, develope and Collaborated with UX/UI designers to implement design specifications using React, enhancing user experience and interface functionality.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
     id: 4,
-    title: "Snr Software Engineer",
-    desc: "Designed, developed, and maintained scalable web applications using React for front-end and Node.js with Express for back-end, improving application performance by 25%. ",
+    title: "Frontend Engineer Intern",
+    desc: "Assist in the development and maintenance of web applications using HTML, CSS, and JavaScript.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
   },
 ];
 

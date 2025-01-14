@@ -11,10 +11,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { myWorks } from "@/data/data";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
+import Link from "next/link";
 
 const Projects = () => {
   return (
-     <div className="my-20 overflow-hidden" id="testimonials">
+     <div className="my-20 overflow-hidden" id="projects">
         <h1 className="heading mb-14 md:mb-10">
             A small selection of{" "}
             <span className="text-purple-600"> recent Projects</span>
@@ -22,7 +23,7 @@ const Projects = () => {
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-10">
           {myWorks.map((works) => (
               <Modal key={works.id} >
-              <ModalTrigger>
+              <ModalTrigger className="cursor-pointer">
                 <CardContainer className="inter-var mt-[-100px]">
                   <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[25rem] md:w-[20rem] lg:w-auto h-auto rounded-xl p-6 border  ">
                     <CardItem translateZ="100" className="w-full mt-4">
@@ -39,7 +40,7 @@ const Projects = () => {
                       translateZ="60"
                       className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-center"
                     >
-                      Hover over this card to unleash the power of CSS perspective
+                      <p className="text-[17px] tracking-wide font-sans">{works.desc}</p>
                     </CardItem>
                   </CardBody>
               </CardContainer> 
@@ -94,11 +95,11 @@ const Projects = () => {
                   </div>
                 </ModalContent>
                 <ModalFooter className="gap-4">
-                  <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
+                  {/* <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
                     Cancel
-                  </button>
+                  </button> */}
                   <button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
-                    Book Now
+                    <Link href="https://www.linkedin.com/in/oladosu-taiwo"> visit</Link>
                   </button>
                 </ModalFooter>
               </ModalBody>
