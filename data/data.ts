@@ -68,25 +68,46 @@ export const testimonials = [
 export const myWorks = [
   {
     id: 1,
-    title: "stormzy e-commerce",
-    desc: "Stormzy - A Modern E-Commerce Web Application",
+    title: "Shop-Sphere",
+    desc: "Shop-Sphere - A Modern E-Commerce Web Application",
     images: [
-      "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1546484475-7f7bd55792da?q=80&w=2581&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/images/shopsphere_1.jpeg",
+      "/images/shopsphere_2.jpeg",
+      "/images/shopsphere_3.jpeg",
+      "/images/shopsphere_4.jpeg",
+      "/images/shopsphere_5.jpeg",
+      "/images/shopsphere_6.jpeg",
     ],
     benefits: [
-      "5 connecting flights",
-      "12 hotels",
-      "Open Mic",
-      "Paragliding",
+      "Frontend & Backend: React, Next.js, TypeScript",
+      "Database: NeonDB, PostgreSQL",
+      "Cloud & Hosting: Varcel",
+      "Payments: Stripe, Crypto",
     ],
-    link: "/"
+    link: "https://shop-sphere-black.vercel.app/"
   },
   {
     id: 2,
+    title: "Lodgify",
+    desc: "Lodigify -  An Online marketplace for short-and-long-term homestays and experiences.",
+    images: [
+      "/images/lodgify_1.jpeg",
+      "/images/lodgify_2.jpeg",
+      "/images/lodgify_3.jpeg",
+      "/images/lodgify_4.jpeg",
+      "/images/lodgify_5.jpeg",
+      "/images/lodgify_6.jpeg",
+    ],
+    benefits: [
+      "Frontend & Backend: React, Next.js, TypeScript",
+      "Database: NeonDB, PostgreSQL",
+      "Cloud & Hosting: Varcel",
+      "Payments: Stripe, Crypto",
+    ],
+    link: "https://lodgify-demo.vercel.app/"
+  },
+  {
+    id: 3,
     title: "AI Photo generator",
     desc: "PhotoStore - A Saas Ai Photo Generator",
     images: [
@@ -104,25 +125,7 @@ export const myWorks = [
     ],
     link: "/"
   },
-  {
-    id: 3,
-    title: "Lodgify",
-    desc: "Lodigify -  An Online marketplace for short-and-long-term homestays and experiences.",
-    images: [
-      "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1546484475-7f7bd55792da?q=80&w=2581&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    ],
-    benefits: [
-      "5 connecting flights",
-      "12 hotels",
-      "Open Mic",
-      "Paragliding",
-    ],
-    link: "/"
-  },
+  
   {
     id: 4,
     title: "task Tracker",

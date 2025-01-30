@@ -28,9 +28,9 @@ const Projects = () => {
                   <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[25rem] md:w-[20rem] lg:w-auto h-auto rounded-xl p-6 border  ">
                     <CardItem translateZ="100" className="w-full mt-4">
                       <Image
-                        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        height="1000"
-                        width="1000"
+                        src={works.images[0]}
+                        height={1000}
+                        width={1000}
                         className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                         alt="thumbnail"
                       />
@@ -74,7 +74,7 @@ const Projects = () => {
                       >
                         <Image
                           src={image}
-                          alt="bali images"
+                          alt="project-image"
                           width="500"
                           height="500"
                           className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover flex-shrink-0"
@@ -99,7 +99,7 @@ const Projects = () => {
                     Cancel
                   </button> */}
                   <button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
-                    <Link href="https://www.linkedin.com/in/oladosu-taiwo"> visit</Link>
+                    <Link href={works.link}> visit</Link>
                   </button>
                 </ModalFooter>
               </ModalBody>
